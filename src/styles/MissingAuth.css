@@ -1,0 +1,30 @@
+.missing-unauth {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  background: rgba(248, 247, 247, 0.3);
+  color: red;
+}
+.back-button {
+  font-size: 20px;
+  display: flex;
+  color: white;
+  padding: 10px 25px;
+  background-color: rgb(17, 17, 16);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  size: 20px;
+}
+
+.back-button:hover {
+  background-color: #067894; /* Green */
+  color: white;
+}
+.message {
+  padding-right: 5%;
+  opacity: 1;
+  text-align: center;
+}

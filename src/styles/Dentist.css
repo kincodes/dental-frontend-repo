@@ -1,0 +1,164 @@
+.wrapper{
+    width: 90%;
+    background:  transparent;
+    border: 2px solid #4e4e4e56;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-left: 25px;
+    
+    
+
+}
+.wrapper button{
+    width: 200px;
+    height: 40px;
+    background: darkolivegreen;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.wrapper-smaller{
+    width: 50%;
+    background:  transparent;
+    border: 2px solid #4e4e4e56;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-left: 25px;
+    
+    
+
+}
+.wrapper-smaller button{
+    width: 200px;
+    height: 40px;
+    background: darkolivegreen;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(218, 214, 214);
+    opacity: 1; /* Firefox */
+}
+.modal{
+
+  width: 90vw ;   
+    max-width: 90vw;
+
+}
+.custom-modal{
+
+    width: 25vw ;   
+      max-width: 25vw;
+  
+  }
+.modal-title{
+    justify-content: center;
+    }
+
+.modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }
+    .modal-backdrop.fade.in {
+    opacity: 0;
+    filter: alpha(opacity=50);
+    }
+    .modal-dialog {
+        max-width: 850px;
+        margin: 2rem auto;
+    }
+
+    
+    .offscreen {
+        position: absolute;
+        left: -9999px;
+    }
+    .errmsg {
+        background-color: lightpink;
+        color: firebrick;
+        font-weight: bold;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .onscreen {
+        position: absolute;
+        right: -9999px;
+    }
+    .successmsg {
+        background-color: lightgreen;
+        color: rgb(5, 145, 40);
+        font-weight: bold;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .text-danger{
+        font-size: 13.5px;
+    }
+
+/* chart styling */
+.app-dash {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    background-color: #ddd;
+  }
+  
+  .dataCard {
+    background-color: #efefef;
+    border-radius: 0.5em;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1em;
+  }
+  
+  .procedureCard {
+    width: 92%;
+    height: 20rem;
+  }
+  
+  .patientCard {
+    width: 50%;
+    height: 20rem;
+  }
+  
+  .appointmentCard {
+    width: 40%;
+    height: 20rem;
+  }
+  .search-bar{
+    /* width: 30vw; */
+    margin-left: 10px;
+    margin-right: 50px;
+   
+  }
+  

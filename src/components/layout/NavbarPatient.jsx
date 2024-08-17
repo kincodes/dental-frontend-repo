@@ -1,0 +1,36 @@
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../styles/Navbars.css";
+
+
+const NavbarPatient = () => {
+  
+  return (
+    <div>
+      <Navbar bg="clear" expand="md" className=" d-flex justify-content-end">
+        <Navbar.Brand as={Link} to="/user/dash">
+          {" "}
+          West Point Dental
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="navbar-options ms-auto">
+            <Nav.Link
+              className="logout-button"
+              as={Link}
+              to="/user/dash/logout"
+            >
+              Logout
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
+  );
+};
+
+export default NavbarPatient;

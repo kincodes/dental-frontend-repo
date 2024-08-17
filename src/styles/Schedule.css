@@ -1,0 +1,74 @@
+.modal{
+
+    width: 90vw ;   
+      max-width: 90vw;
+  
+  }
+  .modal-backdrop.fade {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      }
+      .modal-backdrop.fade.in {
+      opacity: 0;
+      filter: alpha(opacity=50);
+      }
+      .modal-dialog {
+          max-width: 1200px;
+          margin: 2rem auto;
+      }
+  .btn-selct{
+    width: 150px;
+    height: 40px;
+    background:darkolivegreen;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin-right: 30px;
+  }
+  .btn-hours{
+    width: 150px;
+    height: 40px;
+    background: darkolivegreen;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin-right: 30px;
+  }
+
+  .btn-name{
+    font-size: 20px;
+    width: 80px;
+    color:white;
+    background-color: rgb(129, 75, 5);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+   text-align: center;
+   margin: 10px;
+  }
+  .left-pane{
+    float: left;
+   
+
+  }
+  .right-pane{
+    float: left;
+    width: 600px;
+    margin: 15px;
+   
+  }
+  .daterange{
+
+    width: 50vh;
+  }
+  

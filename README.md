@@ -4,7 +4,7 @@ This website is for a dental practice West Point Dental. The website allows auth
 
 Key tools used: Java, Spring Boot, MySQL, React, JSON, JWT Authentication, JUnit 5 & Mockito.
 
-Link to React frontend: [backend](https://github.com/kincodes/dental-repo.git)
+Link to Java/Spring Boot backend: [backend](https://github.com/kincodes/dental-repo.git)
 
 
 

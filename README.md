@@ -1,3 +1,13 @@
+# West Point Dental System
+
+This website is for a dental practice West Point Dental. The website allows authorized users to add and manage patient records, create schedules and manage appointments. Patients can also sign up for a patient portal that enables them to view their personal information and appointments.
+
+Key tools used: Java, Spring Boot, MySQL, React, JSON, JWT Authentication, JUnit 5 & Mockito.
+
+Link to React frontend: [backend](https://github.com/kincodes/dental-repo.git)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
